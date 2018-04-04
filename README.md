@@ -1,4 +1,4 @@
-# Magisk Fonts Changer
+# Magisk-Font-Changer
 ## Usage
 **systemlessly to change font**
 
@@ -14,6 +14,9 @@
 This is a test version 
 Tested on 
 **ubuntu 16.04 LTS 64bits**
+
 **Python 2.7.12**
+
 **Xiaomi6 MIUI9(9.5.3 Stable Andriod 8.0)**
-# Magisk-Font-Changer
+
+
