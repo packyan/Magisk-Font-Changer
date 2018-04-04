@@ -1,0 +1,7 @@
+id=201804036667
+name=Magisk Font Changer 
+version=v1
+versionCode=1
+author=Packy
+description=Change system fonts Systemlessly
+minMagisk=1500
