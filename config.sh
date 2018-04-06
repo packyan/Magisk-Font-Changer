@@ -41,16 +41,10 @@ LATESTARTSERVICE=false
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "
-
-  ██████╗    █████╗    ██████╗  ██╗  ██╗  ██╗   ██╗
-  ██╔══██╗  ██╔══██╗  ██╔════╝  ██║ ██╔╝  ╚██╗ ██╔╝
-  ██████╔╝  ███████║  ██║       █████╔╝    ╚████╔╝ 
-  ██╔═══╝   ██╔══██║  ██║       ██╔═██╗     ╚██╔╝  
-  ██║       ██║  ██║  ╚██████╗  ██║  ██╗     ██║   
-  ╚═╝       ╚═╝  ╚═╝   ╚═════╝  ╚═╝  ╚═╝     ╚═╝ 
-
-"
+  ui_print "Magisk-Font-Changer"
+  ui_print "Author: Pakcyan"
+  ui_print "Report bugs, please vist:"
+  ui_print "https://github.com/packyan/Magisk-Font-Changer"
   ui_print "*******************************"
 }
 
@@ -73,6 +67,10 @@ REPLACE="
 # !DO NOT! remove this if you don't need to replace anything, leave it empty as it is now
 
 
+REPLACE="
+
+
+"
 
 
 ##########################################################################################
