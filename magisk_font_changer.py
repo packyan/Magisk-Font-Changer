@@ -9,7 +9,7 @@ place_holder1 = "./system/fonts/placeholder"
 place_holder2 = "./system/etc/placeholder"
 files_list = []
 insert_str = "data"
-process_flag = "#This file has benn processed by Magisk Fonts Changer -- Python\n"
+process_flag = "#This file has benn processed by Magisk Font Changer -- Python\n"
 def file_name(file_dir):   
     for root, dirs, files in os.walk(file_dir):  
         if debug :
@@ -25,7 +25,7 @@ os.remove(place_holder1)
 os.remove(place_holder2)
 file_name(file_dir)
 if len(files_list[0]) == 0:
-	print("Fonts files have NOT copy to ./system/fonts floder, please chuck\n")
+	print("Fonts files have NOT copy to ./system/fonts folder, please check\n")
 	exit()
 insert_path = []
 for file in files_list[0]:
@@ -40,7 +40,7 @@ for line in config_file:
     lines.append(line)
 config_file.close()
 if(process_flag in lines):
-    print("ERROR: This file has been processed, please chuck ./config.sh\n Operation Abort\n")
+    print("ERROR: This file has been processed, please check ./config.sh\n Operation Abort\n")
     exit()
 lines.insert(insert_line - 2, process_flag)
 for i in range(len(insert_path)):
